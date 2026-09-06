@@ -1,5 +1,7 @@
 # esigncert-go
 
+> Pure-Go generator/parser for ESign (轻松签) `.esigncert` bundles · byte-compatible with the official app.
+
 Go 语言实现 ESign（轻松签）`.esigncert` 证书包的**生成与解析**。纯标准库、零第三方依赖。
 
 在签名站 / 后端服务里传入 `p12` + `mobileprovision`，即可直接产出 ESign App 可导入的证书包，将证书与描述文件内置进去，用户在 ESign 里一键导入即可签名。
